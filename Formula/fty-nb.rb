@@ -6,16 +6,16 @@ class FtyNb < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/HanningWang/mano-skill/releases/download/v0.3.0/fty-nb-macos-arm64.tar.gz"
-      sha256 "8547fc768dbc2fbff0b072c245310c1907aee4e8e5bd5fa7b66efce54b2080be"
+      sha256 "5c7c2554d89470d08c7f2f8a428e791b102ff480f59fa9926addf8f0645a38fb"
     else
       url "https://github.com/HanningWang/mano-skill/releases/download/v0.3.0/fty-nb-macos-x86_64.tar.gz"
-      sha256 "0fe027017d029086f89aa0a8c349e9abcd9652ccbca3d6eb3fd4622c7a84c933"
+      sha256 "c307ce671a1ef145a7147bc160d953d2ef496d3128eccbca7f36545350b272da"
     end
   end
 
   on_linux do
     url "https://github.com/HanningWang/mano-skill/releases/download/v0.3.0/fty-nb-linux-x86_64.tar.gz"
-    sha256 "b390b3b5346b0b9d560ebcd9c1744cbac2954fd1e78a9f0ab3204403bfa01634"
+    sha256 "a1b3d0c5ffef559d02f26079816d03d4875635c13d10cc3c41c931a876a041b6"
   end
 
   def install
