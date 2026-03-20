@@ -2,7 +2,7 @@ class FtyNb < Formula
   desc "VLA Desktop Automation Client"
   homepage "https://github.com/HanningWang/mano-skill"
   url "https://github.com/HanningWang/mano-skill/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "1f99a607f37f638d28ff45ef5a778980e208497213065b91b661b9a5acca1280"
+  sha256 "fb6280e62345b6caa863b6603de4c764fb25ed583a4813fbc76182a985ed3ff7"
   version "0.3.0"
 
   depends_on "python@3.13"
@@ -14,6 +14,7 @@ class FtyNb < Formula
     (venv/"src").install Dir["visual"]
     (bin/"fty-nb").write <<~SH
       #!/bin/bash
+      export PYTHONPATH="#{venv}/src"
       exec "#{venv}/bin/python3" "#{venv}/src/visual/vla.py" "$@"
     SH
   end
