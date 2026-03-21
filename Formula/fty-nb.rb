@@ -2,10 +2,11 @@ class FtyNb < Formula
   desc "VLA Desktop Automation Client"
   homepage "https://github.com/HanningWang/mano-skill"
   url "https://github.com/HanningWang/mano-skill/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "fb6280e62345b6caa863b6603de4c764fb25ed583a4813fbc76182a985ed3ff7"
+  sha256 "2bff66b2040c428c35238e73b127f321b8c505158e13586481712ec349877d4a"
   version "0.3.0"
 
   depends_on "python@3.13"
+  depends_on "python-tk@3.13"
 
   def install
     venv = libexec/"venv"
