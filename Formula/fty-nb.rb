@@ -2,7 +2,7 @@ class FtyNb < Formula
   desc "VLA Desktop Automation Client"
   homepage "https://github.com/HanningWang/mano-skill"
   url "https://github.com/HanningWang/mano-skill/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "2bff66b2040c428c35238e73b127f321b8c505158e13586481712ec349877d4a"
+  sha256 "43e37ea6d156c8b5a4e36777a49da7b349ba22f0a4e1758f6aaa59024db5f168"
   version "0.3.0"
 
   depends_on "python@3.13"
