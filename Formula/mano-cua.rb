@@ -21,6 +21,6 @@ class ManoCua < Formula
   end
 
   test do
-    assert_match "usage", shell_output("#{bin}/mano-cua --help", 2)
+    assert_match "usage", shell_output("#{bin}/mano-cua --help")
   end
 end
