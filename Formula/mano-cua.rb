@@ -2,7 +2,7 @@ class ManoCua < Formula
   desc "VLA Desktop Automation Client"
   homepage "https://github.com/HanningWang/mano-skill"
   url "https://github.com/HanningWang/mano-skill/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "fbd68cbdd1322f3faae75b773e40a25271f94fe4e9a47b353b8f694462fcdb6f"
+  sha256 "1bf873c00cef764f7466015bfabc40ba255a30e7c28dd20c288b4cdbea80bd43"
   version "1.0.3"
 
   depends_on "python@3.13"
